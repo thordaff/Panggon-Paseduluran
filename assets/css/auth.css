@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+/* .container{
+    border: 1px solid black;
+} */
+
+*{
+    font-family: 'Quicksand';
+}
+
+/* Sidebar */
+
+.rect-sidebar{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 45%;
+    height: var(-webkit-fill-available);
+    max-width: 45%;
+    height: 100vh;
+    height: var(-webkit-fill-available);
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    position: relative;
+    left: -50px;
+
+    background: #3A1919;
+}
+
+.logo{
+    position: absolute;
+
+    top: 30px;
+    left: 50px;
+}
+
+.login-sec{
+    position: absolute;
+
+    top: 7cm;
+    left: 1.3cm;
+}
+
+.login-sec input{
+    width: 20em;
+
+    background: none;
+
+    color: white;
+    border: none;
+    border-bottom: 1px solid white!important;
+}
+
+.login-sec input:focus{
+    outline: none;
+}
+
+.email{
+    margin-bottom: 50px;
+}
+
+.email input::placeholder{
+    color: rgba(255, 255, 255, 0.600);
+}
+
+.password{
+    margin-bottom: 50px;
+    color: white!important;
+}
+
+.password input::placeholder{
+    color: rgba(255, 255, 255, 0.600);
+}
+
+.button button{
+    font-weight: 600;
+
+    width: 15em;
+    height: 2.5em;
+    border-radius: 5px;
+
+    border: none;
+    outline: none;
+}
+
+.helper{
+    position: absolute;
+
+    top: 41em;
+    left: 1.3cm;
+}
+
+.helper a{
+    font-size: 14px;
+
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.helper a:hover{
+    color: white;
+}
+
+/* Resource */
+
+.resource{
+    position: absolute;
+
+    top: 4em;
+    left: 38em;
+}
+
+.resource-sec{
+    position: fixed;
+    width: var(-webkit-fill-available);
+}
+
+.image-login img{
+    width: 800px;
+
+    border-radius: 20px;
+}
+
+.text-login{
+    margin-top: 60px;
+
+    font-weight: lighter;
+    font-size: 14px;
+}
