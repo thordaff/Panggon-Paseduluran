@@ -15,16 +15,20 @@ nav{
     top: 10px;
 }
 
+.navbar-maps ul li a{
+    color: black!important;
+}
+
+.navbar-home ul li a{
+    color: white!important;
+}
+
 .navbar-brand img{
     width: 6em;
 }
 
 .navbar-nav .nav-item{
     margin-left: 50px;
-}
-
-.navbar-nav li a{
-    color: white!important;
 }
 
 /* Heroes */
@@ -113,6 +117,18 @@ nav{
 
 .desc-list p{
     font-weight: 700;
+}
+
+/* Maps */
+
+.maps-content iframe{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+iframe{
+    width: 100%;
 }
 
 /* Menu */
