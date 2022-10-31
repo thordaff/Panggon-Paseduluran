@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+/* .container{
+    border: white 1px solid;
+} */
+
+body{
+    font-family: 'Quicksand';
+    background: #3A1919;
+}
+
+.menu-list{
+    margin-top: 50px;
+}
+
+.menu-list .card{
+    display: block;
+    height: 1240px;
+    border-radius: 20px 20px 80px 80px;
+}
+
+.card-item{
+    margin-left: 50px;
+}
+
+.card-item h1{
+    font-family: 'Italianno';
+    font-size: 36px;
+
+    margin-top: 50px;
+}
+
+.card-item .coffee-item, .tea-item, .authentic-item{
+    font-size: 14px;
+    font-weight: medium;
+
+    margin-top: 20px;
+}
+
+.img-coffe{
+    position: relative;
+}
+
+.coffe-img img{
+    position: absolute;
+    top: -550px;
+    left: 40px;
+    width: 95%;
+}
+
