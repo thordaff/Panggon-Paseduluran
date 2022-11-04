@@ -11,45 +11,43 @@
     <title> Paseduluran - Login </title>
   </head>
   <body>
-    <!-- Sidebar Start -->
 
-    <div class="sidebar">
-        <div class="container-fluid sidebar-area">
-            <div class="rect-sidebar"></div>
-              <img src="assets/image/LogoW.png" alt="Logo" class="logo" style="width: 7em;">
-              <form action="#" method="post" class="login-sec">
-                <div class="email">
-                  <input type="text" name="username" id="username" placeholder="Username">
-                </div>
-                <div class="password">
-                  <input type="password" name="password" id="password" placeholder="Password">
-                </div>
-                <div class="button">
-                  <button>Masuk</button>
-                </div>
+    <!-- Login Start -->
+
+    <nav class="navbar navbar-expand-lg navbar-light navbar-login">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+              <img src="assets/image/LogoW.png" alt="Logo">
+          </a>
+      </div>
+  </nav>
+
+  <div class="login-side">
+    <div class="container-fluid">
+      <div class="bg-login"></div>
+      <div class="row two-side">
+        <div class="col">
+          <div class="login-section">
+            <form action="#" method="get">
+              <div class="email">
+                <input type="email" name="email" id="email" placeholder="Email" autocomplete="off">
+              </div>
+              <div class="pass">
+                <input type="password" name="" id="" placeholder="Password" autocomplete="off">
+              </div>
+              <button type="submit">Masuk</button>
             </form>
-            <div class="helper">
-              <a href="#">Tidak bisa masuk ?</a>
-            </div>
+          </div>
         </div>
-    </div>
-
-    <!-- Sidebar End -->
-
-    <!-- Resource Start -->
-
-    <div class="resource">
-      <div class="container resource-sec">
-        <div class="image-login">
-          <img src="assets/image/LoginImg.jpg" alt="LoginImage">
-        </div>
-        <div class="text-login">
-          <span>“ Bekerjalah dengan Ikhlas, Jujur, Dan Kompeten. Niscaya dirimu akan mendapatkan yang terbaik ”</span>
+        <div class="col img-login">
+          <div class="rectangle-login"></div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Resource End -->
+    <!-- Login End -->
+
     <!-- Js File -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

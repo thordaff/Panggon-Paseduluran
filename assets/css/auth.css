@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 
-/* .container{
+/* .container-fluid{
     border: 1px solid black;
 } */
 
@@ -9,123 +9,60 @@
     font-family: 'Quicksand';
 }
 
-/* Sidebar */
+/* Login */
 
-.rect-sidebar{
-    display: flex;
-    flex-wrap: nowrap;
-    width: 45%;
-    height: var(-webkit-fill-available);
-    max-width: 45%;
-    height: 100vh;
-    height: var(-webkit-fill-available);
-    max-height: 100vh;
-    overflow-x: auto;
-    overflow-y: hidden;
+nav img{
+    width: 70%;
+}
 
+.login-side{
     position: relative;
-    left: -50px;
+    top: 150px;
+}
 
+.login-side button{
+    width: 40%;
+    height: 30px;
+
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.bg-login{
+    position: fixed;
+    top: -20px;
+    left: -5px;
+
+    width: 45%;
+    height: 3440px;
+    z-index: -1;
     background: #3A1919;
 }
 
-.logo{
-    position: absolute;
-
-    top: 30px;
-    left: 50px;
+.two-side{
+    position: relative;
 }
 
-.login-sec{
-    position: absolute;
+.two-side .login-section input{
+    width: 10cm;
+    margin-bottom: 50px;
 
-    top: 7cm;
-    left: 1.3cm;
-}
-
-.login-sec input{
-    width: 20em;
-
+    color: white;
+    border-bottom: 2px white solid!important;
     background: none;
-
-    color: white;
     border: none;
-    border-bottom: 1px solid white!important;
+    outline: none!important;
 }
 
-.login-sec input:focus{
-    outline: none;
-}
-
-.email{
-    margin-bottom: 50px;
-}
-
-.email input::placeholder{
-    color: rgba(255, 255, 255, 0.600);
-}
-
-.password{
-    margin-bottom: 50px;
-    color: white!important;
-}
-
-.password input::placeholder{
-    color: rgba(255, 255, 255, 0.600);
-}
-
-.button button{
-    font-weight: 600;
-
-    width: 15em;
-    height: 2.5em;
-    border-radius: 5px;
-
-    border: none;
-    outline: none;
-}
-
-.helper{
-    position: absolute;
-
-    top: 41em;
-    left: 1.3cm;
-}
-
-.helper a{
-    font-size: 14px;
-
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.50);
-}
-
-.helper a:hover{
-    color: white;
-}
-
-/* Resource */
-
-.resource{
-    position: absolute;
-
-    top: 4em;
-    left: 38em;
-}
-
-.resource-sec{
+.img-login .rectangle-login{
     position: fixed;
-    width: var(-webkit-fill-available);
-}
+    top: 100px;
+    left: 23cm;
 
-.image-login img{
-    width: 800px;
+    width: 550px;
+    height: 550px;
 
-    border-radius: 20px;
-}
-
-.text-login{
-    margin-top: 60px;
-
-    font-weight: lighter;
-    font-size: 14px;
+    background: grey;
+    border-radius: 15px;
 }

@@ -132,6 +132,97 @@ nav{
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
 }
 
+/* Background Cafe */
+
+.cafe-background{
+    margin-top: 75px;
+}
+
+.about-cafe .text-left h1{
+    font-size: 32px;
+    font-weight: bold;
+    
+    margin-bottom: 50px;
+}
+
+.about-cafe .text-left p{
+    font-size: 14px;
+
+    text-align: justify;
+}
+
+.desc-cafe{
+    margin-top: 75px;
+}
+
+.img-left .rectangle-img{
+    width: 500px;
+    height: 500px;
+
+    background: grey;
+}
+
+.desc-cafe .about-right p{
+    margin-bottom: 50px;
+}
+
+.founder .card{
+    height: 340px;
+
+    border-radius: 20px;
+}
+
+.email-sec{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.feedback .send-email h1{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.feedback form{
+    font-size: 16px;
+}
+
+form .email input{
+    width: 15em;
+
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+form .your-feedback textarea{
+    width: 100%;
+
+    border-radius: 10px;
+    resize: none!important;
+    outline: none;
+}
+
+form .btn-sbmt{
+    width: 100%;
+    background-color: #3A1919;
+    color: white;
+
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
+
+form .btn-sbmt:hover{
+    background: #793333;
+    outline: none;
+}
+
+.feedback .email{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
 /* Menu */
 
 .card-sec{
